@@ -1,0 +1,82 @@
+{
+    "subjects": [
+        {
+            "id": "064114",
+            "name": "Introdução à Engenharia de Produção",
+            "number": "100"
+        },
+        {
+            "id": "09462234",
+            "name": "Mecânica",
+            "number": "101"
+        }
+    ],
+
+    "courses":[
+        {
+            "id": "12304",
+            "name": "Engenharia de Produção",
+            "courseCode": "EP"
+        },
+        {
+            "id": "582382",
+            "name": "Engenharia Mecânica",
+            "courseCode": "EM"
+        }
+    ],
+    
+    "flowChart":[
+        {
+            "flowChartId": "29301",
+            "courseId" : "12304",
+            "periods": [
+                {"name": "1 periodo"},
+                {"name": "2 periodo"}
+            ]
+        },
+        {
+            "flowChartId": "29301",
+            "courseId" : "582382",
+            "periods": [
+                {"name": "1 periodo"},
+                {"name": "2 periodo"}
+            ]
+        }
+    ],
+
+    "subjectFlowChart": [
+        {
+            "subjectFlowChartId": "29149",
+            "flowChartId": "29301",
+        }
+    ],
+
+    "departaments": [
+        {
+            "id": "12482384304",
+            "name": "Departamento de Engenharia Industrial",
+            "departamentCode": "DEI",
+            "departamentSubjectCode": "EEI"
+        },
+        {
+            "id": "4934920",
+            "name": "Departamento de Engenharia Mecânica",
+            "departamentCode": "DEM",
+            "departamentSubjectCode": "MEC"
+        }
+    ],
+
+    "subjectName": "Introdução à Engenharia de Produção",
+    "offeredBy": [
+        {
+            "departamentName": "Departamento de Engenharia Industrial",
+            "sigla": "DEI",
+            "departamentCode": "EEI",
+            "offeredTo": [
+                {
+                    "class": "Engenharia de Produção"
+                }
+            ]
+        }
+    ]
+}
