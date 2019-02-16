@@ -5,7 +5,7 @@ import pandas as pd
 class Calendar():
     def __init__(self, creds):
         self.service = build('calendar', 'v3', credentials=creds)   # Inicia o calendário
-        with open('calendar.json') as f:
+        with open('json_templates/calendar.json') as f:
             self.calendar = json.load(f)            # Carrega os comandos para Calendário
         self.all_calendars = pd.DataFrame(data=None, columns=['id','name'])
 
@@ -43,7 +43,7 @@ class Calendar():
 class Event():
     def __init__(self, creds):
         self.service = build('calendar', 'v3', credentials=creds)   # Inicia o calendário
-        with open('event.json') as f: # TODO
+        with open('json_templates/event.json') as f: # TODO
             self.event = json.load(f)            # Carrega os comandos para Evento
         
     
